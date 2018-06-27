@@ -9,8 +9,8 @@ class Person
     # binding.pry
   end
   
-  def bank_account=(bank_account = 25)
-    @bank_account = bank_account
+  def bank_account=
+    @bank_account = 25
     binding.pry
   end
   
