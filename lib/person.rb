@@ -1,6 +1,6 @@
 require 'pry'
 class Person
-  attr_writer :bank_account
+  # attr_writer :bank_account
   attr_reader :name
   def initialize(name)
     @name = name
@@ -13,7 +13,7 @@ class Person
     @bank_account = 25
   end
   
-  # def bank_account
-  #   @bank_account
-  # end
+  def bank_account
+    @bank_account
+  end
 end
