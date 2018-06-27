@@ -10,8 +10,7 @@ class Person
   end
   
   def bank_account=
-    @bank_account = 25
-    binding.pry
+    @bank_account = 25exit!
   end
   
   # def bank_account
