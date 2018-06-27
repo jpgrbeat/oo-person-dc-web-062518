@@ -35,4 +35,12 @@ class Person
     end
   end
   
+  def happy?
+    if self.happiness > 7
+       true
+    end
+     false
+   end
+    
+  
 end
