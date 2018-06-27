@@ -6,6 +6,7 @@ class Person
     @name = name
     @bank_account = 25
     
+    binding.pry
   end
   
   # def bank_account=(bank_account = 25)
