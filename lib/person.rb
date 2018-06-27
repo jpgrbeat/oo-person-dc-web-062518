@@ -5,8 +5,8 @@ class Person
     @name = name
   end
   
-  def bank_account=(25)
-    @bank_account = 25
+  def bank_account=(bank_account = 25)
+    @bank_account = bank_account
   end
   
   def bank_account
